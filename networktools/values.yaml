@@ -36,6 +36,17 @@ service:
   type: ClusterIP
   port: 80
 
+ingress:
+  enabled: false
+  className: nginx
+  annotations: {}
+  hosts:
+    - host: networktools.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
 resources: {}
   # limits:
   #   cpu: 200m
