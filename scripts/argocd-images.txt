@@ -1,0 +1,5 @@
+# ArgoCD images — chart 9.4.9 (app v3.3.2)
+# 2026-03-09T14:04:45Z
+ecr-public.aws.com/docker/library/redis:8.2.3-alpine -> harbor.local:8080/argocd/redis:8.2.3-alpine
+ghcr.io/dexidp/dex:v2.45.1 -> harbor.local:8080/argocd/dex:v2.45.1
+quay.io/argoproj/argocd:v3.3.2 -> harbor.local:8080/argocd/argocd:v3.3.2
